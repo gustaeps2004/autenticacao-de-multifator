@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteiraCripto.API", "CarteiraCripto.API\CarteiraCripto.API.csproj", "{95C8142C-E2B3-4491-A36A-F9D829F85A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteiraCripto.ApplicationService", "CarteiraCripto.ApplicationService\CarteiraCripto.ApplicationService.csproj", "{4DF60855-21ED-4148-B1AB-432F58C1BF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteiraCripto.Domain", "CarteiraCripto.Domain\CarteiraCripto.Domain.csproj", "{016888E0-11E5-4ED1-85BD-437D963EDFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteiraCripto.InfrastructureData", "CarteiraCripto.InfrastructureData\CarteiraCripto.InfrastructureData.csproj", "{9CD3A6A3-EE0C-4650-B6E5-28826EAC89D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteiraCripto.Infrastructure", "CarteiraCripto.Infrastructure\CarteiraCripto.Infrastructure.csproj", "{92CAE62A-3FF5-4207-A114-62104562EC85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95C8142C-E2B3-4491-A36A-F9D829F85A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C8142C-E2B3-4491-A36A-F9D829F85A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C8142C-E2B3-4491-A36A-F9D829F85A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C8142C-E2B3-4491-A36A-F9D829F85A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF60855-21ED-4148-B1AB-432F58C1BF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF60855-21ED-4148-B1AB-432F58C1BF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF60855-21ED-4148-B1AB-432F58C1BF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF60855-21ED-4148-B1AB-432F58C1BF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016888E0-11E5-4ED1-85BD-437D963EDFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016888E0-11E5-4ED1-85BD-437D963EDFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016888E0-11E5-4ED1-85BD-437D963EDFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016888E0-11E5-4ED1-85BD-437D963EDFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD3A6A3-EE0C-4650-B6E5-28826EAC89D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD3A6A3-EE0C-4650-B6E5-28826EAC89D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD3A6A3-EE0C-4650-B6E5-28826EAC89D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD3A6A3-EE0C-4650-B6E5-28826EAC89D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CAE62A-3FF5-4207-A114-62104562EC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CAE62A-3FF5-4207-A114-62104562EC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CAE62A-3FF5-4207-A114-62104562EC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CAE62A-3FF5-4207-A114-62104562EC85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B64AD9BB-873C-48C5-ADE0-8AB859C51FE5}
+	EndGlobalSection
+EndGlobal
