@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PYPaBJhTseXd+xrCfb6B9hbamPzTYxsNtam/SUVs71WLngy0mOVMl9ITMIV1tO/uhlwoiQ5Urbkg57U+G6XCPw==",
+  "dgSpecHash": "7CDi7IfLXQ8oIrcMX5tHWfNtm19jPctyXxVhX8/1saH5oB+ry52Sc4RFTseKdmZYPMn0skO3U8VeeXyWjO8cdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\carteira-criptomoedas\\CarteiraCripto\\CarteiraCripto.Infrastructure\\CarteiraCripto.Infrastructure.csproj",
+  "projectFilePath": "C:\\temp\\ProjetosPessoais\\carteira-criptomoedas\\CarteiraCripto\\CarteiraCripto.Infrastructure\\CarteiraCripto.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
