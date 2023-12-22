@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AutenticacaoMultifator.Application\AutenticacaoMultifator.Application.csproj" />
+    <ProjectReference Include="..\AutenticacaoMultifator.Data\AutenticacaoMultifator.Data.csproj" />
+    <ProjectReference Include="..\AutenticacaoMultifator.Domain\AutenticacaoMultifator.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
