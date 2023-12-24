@@ -22,19 +22,10 @@ namespace AutenticacaoMultifator.Application.Services.Colaborador
             return colaboradores.OrderBy(c => c.Nome);
         }
 
-        public Domain.Entidades.Colaborador ObterColaboradorPorCodigo(Guid Codigo)
+        public Domain.Entidades.Colaborador ObterColaboradorPorCodigo(Guid codigo)
         {
-            throw new NotImplementedException();
-        }
-
-        public void InserirColaborador(Domain.Entidades.Colaborador colaborador)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void AtualizarColaborador(Domain.Entidades.Colaborador colaborador)
-        {
-            throw new NotImplementedException();
+            var colaborador = _colaboradorRepository.ObterPorCodigo<Domain.Entidades.Colaborador>(c => c.Codigo == codigo) ?? throw new ExceptionValidacao("Não há registros do colaborador.");
+            return colaborador;
         }
     }
 }

@@ -31,7 +31,24 @@ namespace AutenticacaoMultifator.API.Controllers.V1
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet("obter-por-codigo/{codigo:Guid}")]
+        public ActionResult<Colaborador> ObterPorCodigo(Guid codigo)
+        {
+            try
+            {
+                return Ok(_colaboradorService.ObterColaboradorPorCodigo(codigo));
+            }
+            catch (ExceptionValidacao ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
     }
